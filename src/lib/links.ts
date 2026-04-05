@@ -10,8 +10,8 @@ export const getUrl = (url: string) => {
     mask_shards: 'https://hollowknight.fandom.com/pt/wiki/Fragmento_de_M%C3%A1scara',
     charms: 'https://hollowknight.fandom.com/pt/wiki/Categoria:Amuletos',
     colosseum: 'https://hollowknight.fandom.com/pt/wiki/Coliseu_dos_Tolos',
-    dreamers: '',
-    godhome: '',
+    dreamers: 'https://hollowknight.fandom.com/pt/wiki/Categoria:Chefes#Guerreiros_dos_Sonhos',
+    godhome: 'https://hollowknight.fandom.com/pt/wiki/Lar_dos_Deuses',
   }
   return sectionLink[url] || 'https://hollowknight.fandom.com/pt/wiki/Hollow_Knight_Wiki'
 }
