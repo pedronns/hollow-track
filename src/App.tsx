@@ -57,7 +57,7 @@ function App() {
 
 	useEffect(() => {
 		const percent = progress.toFixed()
-		document.title = `Hollowtrack - ${percent}%`
+		document.title = `Hollow Track - ${percent}%`
 	}, [progress])
 	
 	const remaining = allItems.length - checkedFields.size
@@ -73,7 +73,7 @@ function App() {
 			>
 				<header className="flex mb-2 rounded-xl w-full mx-auto  max-w-6xl flex-col py-8 px-4 sm:px-6 md:px-8 bg-black/70 relative">
 					<img
-						src="/img/title_large.png"
+						src="/img/title.png"
 						alt="Hollow Knight"
 						className="mx-auto mb-2 w-full max-w-xs sm:max-w-sm md:max-w-md h-auto"
 					/>
