@@ -80,7 +80,7 @@ function App() {
 					<button onClick={() => toggleLanguage()} className='absolute right-5 top-4 text-xs'>
 						{language?.toUpperCase()}
 					</button>
-					<h1 className="text-3xl sm:text-4xl font-bold mb-2 capitalize">
+					<h1 className="text-3xl sm:text-4xl font-bold mb-2 lowercase first-letter:uppercase">
 						{t('112%_checklist')}
 					</h1>
 
